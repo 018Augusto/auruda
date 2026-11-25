@@ -1,0 +1,52 @@
+PROJETO: ENTRE NÓS — PARA MARIA CLARA
+Feito por Gabriel Augusto.
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta "maria_clara_site".
+3. Dê dois cliques em index.html. O site abre no navegador.
+   Não precisa instalar nada e funciona sem servidor para a experiência principal.
+   A fonte pode precisar de internet para carregar; se estiver offline, haverá fonte alternativa.
+
+COMO COLOCAR AS FOTOS DE VOCÊS
+1. Abra a pasta assets/fotos.
+2. Escolha até 3 fotos de vocês (de preferência arquivos JPG ou JPEG).
+3. Renomeie exatamente assim:
+   - foto-1.jpg  (foto principal da lembrança)
+   - foto-2.jpg  (foto maior da galeria)
+   - foto-3.jpg  (segunda foto da galeria)
+4. Coloque os arquivos nessa pasta, substituindo as imagens de exemplo (não há imagens pessoais incluídas).
+5. Atualize a página no navegador.
+
+IMPORTANTE:
+- Os nomes precisam ser exatamente foto-1.jpg, foto-2.jpg e foto-3.jpg.
+- Se suas fotos forem PNG, converta para JPG ou altere o final do nome no HTML.
+- Para manter a qualidade e carregar rápido no celular, prefira imagens com até 3 MB cada.
+- Use fotos que vocês dois estejam confortáveis em compartilhar.
+
+COMO ENVIAR PARA ELA PELO CELULAR
+O site funciona em computador e celular, mas para ela abrir por um link você precisa publicar a pasta em uma hospedagem de site estático.
+Opção simples: Netlify (deploy manual).
+1. Crie uma conta em https://www.netlify.com/.
+2. No painel, escolha a opção de adicionar um novo site e fazer deploy manual (a opção pode mudar de nome).
+3. Arraste a pasta inteira "maria_clara_site" para a área de deploy.
+4. Aguarde a publicação e copie o endereço gerado.
+5. Envie o link para Maria Clara. Ela pode abrir no navegador do celular.
+Não envie só o index.html: envie a pasta completa, com style.css, script.js e assets.
+
+PERSONALIZAR O TEXTO
+Abra index.html em um editor de texto (por exemplo, VS Code ou Bloco de Notas).
+Procure os textos e troque o que quiser. O texto usa 26/06/2026, conforme a data em que vocês se conheceram.
+Você pode trocar "Monster" ou acrescentar lembranças que sejam de vocês.
+
+O QUE JÁ FUNCIONA
+- Feed vertical com rolagem e encaixe entre telas.
+- Layout adaptável para celular e computador.
+- Botões de curtir e guardar com feedback visual.
+- Compartilhamento pelo menu nativo do celular ou cópia do link.
+- Navegação pelas setas do teclado no computador e pelos botões na tela.
+- Galeria com espaços para suas fotos.
+- Não toca música automaticamente e não depende de bibliotecas JavaScript externas.
+
+OBSERVAÇÃO
+É um site estático: os botões de curtir/guardar são interações locais no navegador, não um sistema de contas ou banco de dados. Se Maria Clara abrir em outro aparelho, as curtidas dela não aparecem no seu PC.

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#170d12">
+  <meta name="description" content="Um cantinho feito por Gabriel Augusto para Maria Clara.">
+  <title>Para Maria Clara ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#inicio" aria-label="Voltar ao início"><span class="brand-mark">✦</span> entre nós</a>
+    <div class="top-note">feito com carinho por <strong>Gabriel Augusto</strong></div>
+    <button class="sound-toggle" id="soundToggle" type="button" aria-label="Ativar efeitos sonoros">♫ <span>som: off</span></button>
+  </header>
+
+  <main class="app-shell" id="inicio">
+    <aside class="side-copy">
+      <span class="eyebrow">UM PEQUENO UNIVERSO</span>
+      <h1>Maria Clara<span class="wine-dot">.</span></h1>
+      <p>Algumas lembranças merecem seu próprio lugar. Essa aqui é uma delas.</p>
+      <div class="side-divider"></div>
+      <p class="side-small">Deslize, explore e encontre um pedacinho da nossa história em cada tela.</p>
+      <div class="side-stamp">G <span>♡</span> M.C.</div>
+    </aside>
+
+    <section class="phone-wrap" aria-label="Álbum interativo">
+      <div class="phone-frame">
+        <div class="phone-top"><span class="tiny-logo">✦ entre nós</span><span class="top-date">26 · 06 · 2026</span></div>
+        <div class="feed" id="feed">
+          <article class="scene scene-cover" id="scene-1">
+            <div class="scene-bg stars"></div>
+            <div class="cover-content">
+              <span class="eyebrow">PARA A MINHA PESSOA FAVORITA</span>
+              <div class="orbit-heart">♡</div>
+              <h2>Uma história<br><em>que é nossa.</em></h2>
+              <p>Maria Clara & Gabriel Augusto</p>
+              <span class="cover-hint">role para começar <span>↓</span></span>
+            </div>
+            <div class="scene-index">01 / 05</div>
+          </article>
+
+          <article class="scene scene-memory" id="scene-2">
+            <div class="photo-slot photo-memory">
+              <img src="assets/fotos/IMG_0595.jpg" alt="Uma foto de vocês" onerror="this.style.display='none';this.parentElement.classList.add('empty-photo')">
+              <div class="photo-placeholder"><span>♡</span><b>Nosso primeiro registro</b><small>Coloque uma selfie de vocês aqui</small></div>
+            </div>
+            <div class="memory-copy">
+              <span class="eyebrow">CAPÍTULO I · O COMEÇO</span>
+              <h2>26 de junho<br><em>de 2026.</em></h2>
+              <p>Na casa da sua mãe, eu dividi meu Monster com você. A gente ficou tímido, meio sem saber muito bem o que dizer… mas, de algum jeito, aquele momento simples ficou guardado em mim.</p>
+              <p>Quando cheguei em casa, ainda pensando naquele dia, pedi seu número para sua mãe. E foi assim que uma lembrança pequena começou a virar uma história enorme pra mim.</p>
+            </div>
+            <div class="scene-index">02 / 05</div>
+          </article>
+
+          <article class="scene scene-nerd" id="scene-3">
+            <div class="rune rune-a">ᚠ</div><div class="rune rune-b">✧</div>
+            <span class="eyebrow">NOSSO LADO FANTÁSTICO</span>
+            <h2>Tudo que amamos chatinha</h2>
+            <p class="scene-lead">eu escolheria continuar essa aventura do seu lado.</p>
+            <div class="interest-grid">
+              <div class="interest-card"><span class="interest-icon">⚔</span><b>RPG</b><small>Missões, mundos e histórias que não acabam.</small></div>
+              <div class="interest-card"><span class="interest-icon">影</span><b>Toji</b><small>Um toque de força e atitude no nosso universo nerd.</small></div>
+              <div class="interest-card"><span class="interest-icon">🗡</span><b>Hyrule</b><small>Um pouco da magia de Ocarina of Time.</small></div>
+              <div class="interest-card"><span class="interest-icon">♫</span><b>Rock</b><small>Porque algumas memórias têm trilha sonora.</small></div>
+            </div>
+            <div class="quest-line"><span>MISSÃO ATUAL</span><b>Fazer mais memórias juntos</b><i>∞</i></div>
+            <div class="scene-index">03 / 05</div>
+          </article>
+
+          <article class="scene scene-gallery" id="scene-4">
+            <span class="eyebrow">PEQUENOS INFINITOS</span>
+            <h2>Momentos que<br><em>eu amei te ver (toda vez)</em></h2>
+            <div class="gallery-grid">
+              <div class="photo-slot gallery-large"><img src="assets/fotos/IMG_3988.jpg" alt="Foto especial de vocês" onerror="this.style.display='none';this.parentElement.classList.add('empty-photo')"><div class="photo-placeholder"><span>✦</span><b>Uma memória</b><small>foto-2.jpg</small></div></div>
+              <div class="photo-slot gallery-small"><img src="assets/fotos/IMG_4123.jpg" alt="Outra foto de vocês" onerror="this.style.display='none';this.parentElement.classList.add('empty-photo')"><div class="photo-placeholder"><span>♡</span><b>Seu sorriso</b><small>foto-3.jpg</small></div></div>
+              <div class="gallery-note">Não precisa ser um dia perfeito. Se tem você, já tem algo especial.</div>
+            </div>
+            <div class="scene-index">04 / 05</div>
+          </article>
+
+          <article class="scene scene-letter" id="scene-5">
+            <div class="letter-glow"></div>
+            <span class="eyebrow">ANTES DE VOCÊ IR…</span>
+            <div class="letter-card">
+              <span class="letter-heart">♡</span>
+              <h2>Pra você,<br><em>Maria Clara.</em></h2>
+              <p>Eu fiz esse cantinho porque queria que você tivesse um lugar para voltar quando desse vontade de lembrar da gente. Talvez eu não consiga colocar tudo o que sinto em palavras, mas posso começar dizendo que aquele 26 de junho mudou o meu jeito de olhar para os dias comuns.</p>
+              <p>Obrigado por fazer parte da minha história. Que a gente ainda tenha muitas fases, músicas, partidas, risadas e capítulos pela frente.</p>
+              <p class="signature">Com carinho, Gabriel Augusto <span>♡</span></p>
+            </div>
+            <button class="restart-btn" id="restartBtn" type="button">↻ rever nossa história</button>
+            <div class="scene-index">05 / 05</div>
+          </article>
+        </div>
+        <div class="feed-controls">
+          <button id="prevBtn" type="button" aria-label="Tela anterior">↑</button>
+          <div class="progress-dots" id="progressDots" aria-label="Progresso"><span class="active"></span><span></span><span></span><span></span><span></span></div>
+          <button id="nextBtn" type="button" aria-label="Próxima tela">↓</button>
+        </div>
+        <div class="side-actions">
+          <button class="action-btn" id="likeBtn" type="button" aria-label="Curtir"><span class="action-heart">♡</span><small id="likeLabel">curtir</small></button>
+          <button class="action-btn" id="saveBtn" type="button" aria-label="Guardar lembrança"><span>✧</span><small id="saveLabel">guardar</small></button>
+          <button class="action-btn" id="shareBtn" type="button" aria-label="Compartilhar"><span>↗</span><small>enviar</small></button>
+        </div>
+      </div>
+    </section>
+
+    <aside class="right-copy">
+      <div class="mini-card">
+        <span class="mini-label">NOSSO MARCO ZERO</span>
+        <strong>26<span>/</span>06<span>/</span>2026</strong>
+        <p>O dia em que um Monster foi dividido — e uma história começou.</p>
+      </div>
+      <div class="scroll-guide"><span class="guide-line"></span><span>01 — 05</span></div>
+      <p class="right-foot">feito para ser visto com calma<br>e guardado com carinho.</p>
+    </aside>
+  </main>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
